@@ -52,12 +52,17 @@ lung-cancer-seg/
 - Trains on prepared dataset (custom epochs/img size/batch size adjustable)
 - Saves weights and validation results to `runs/segment/*`
 
-### 3. Visualization
+### 4-Panel Results Visualization
 
-- Generates videos/animations of:
-   - Original slice
-   - Ground truth mask overlay
-   - Model prediction mask overlay
+The pipeline produces a 4-panel video for each CT scan, showing:
+- **Original CT slice**
+- **Ground truth tumor mask**
+- **YOLOv8 segmentation prediction**
+- **Verification panel (hybrid CNN-GLCM analyzer output for each detected region)**
+
+This visualization helps compare the model's raw predictions to both the ground truth and the final verification step, providing clear insight into pipeline performance.
+
+![4-panel video screenshot](path_or_url_to_your_sample_frame_or_gif.png)
 
 ### 4. Stage 2 Patch Extraction
 
