@@ -62,7 +62,7 @@ The pipeline produces a 4-panel video for each CT scan, showing:
 
 This visualization helps compare the model's raw predictions to both the ground truth and the final verification step, providing clear insight into pipeline performance.
 
-![4-panel_Sample]((https://github.com/sukhdeep2813/7th-Sem-Project/blob/main/Sample.gif))
+![4-panel_Sample](https://github.com/sukhdeep2813/7th-Sem-Project/blob/main/Sample.gif)
 
 ### 4. Stage 2 Patch Extraction
 
